@@ -32,7 +32,7 @@ Then see the `doctum/build` folders which contain the generated documentation.
 * Fails on large codebases
 
 
-## PHPDOC
+## PHPDOX
 
 [https://phpdox.net/](https://phpdox.net/)
 
@@ -61,4 +61,17 @@ Then see the `phpdox/build` folders which contain the generated documentation.
 
 [https://www.phpdoc.org/](https://www.phpdoc.org/)
 
-TODO
+```
+cd phpdoc
+
+```
+
+Then see the `phpdoc/build` folders which contain the generated documentation.
+
+**Pros**
+* 
+* 
+
+**Cons**
+* 
+*
