@@ -19,6 +19,17 @@ php -d memory_limit=-1 doctum.phar update gin.php
 
 Then see the `doctum/build` folders which contain the generated documentation.
 
+Pros
+* Easy to use and automate
+* Nice looking default theme and easy to subtheme
+* Can switch branches and generates all different versions in one go
+
+Cons
+* Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
+* Everything should be on a namespace
+* Fails on large codebases
+
+
 ## PHPDOC
 
 [https://www.phpdoc.org/](https://www.phpdoc.org/)
