@@ -1,3 +1,5 @@
-repos/*
+repos/drupal
+repos/webform
+repos/gin
 doctum/build
 doctum/cache
