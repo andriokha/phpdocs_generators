@@ -6,6 +6,12 @@ Evaluate different tools to create documentation based on code.
 
 Initial set up: `./bring-repos.sh`
 
+Then:
+* [#doctum](Doctum)
+* [#phpdox](Phpdox)
+* [#phpdoc](Phpdoc)
+
+
 ## Doctum
 
 [https://github.com/code-lts/doctum](https://github.com/code-lts/doctum)
@@ -69,9 +75,9 @@ cd phpdoc
 Then see the `phpdoc/build` folders which contain the generated documentation.
 
 **Pros**
-* 
-* 
+*
+*
 
 **Cons**
-* 
+*
 *
