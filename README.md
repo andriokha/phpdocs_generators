@@ -49,6 +49,7 @@ php -d memory_limit=-1 phpdox.phar -f gin.xml
 ```
 
 Then see the `phpdox/build` folders which contain the generated documentation.
+If you need to generate documentation for a specific branch you need to navigate to the folder and checkout the branch.
 
 **Pros**
 * Easy to use and automate
