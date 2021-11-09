@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://xml.phpdox.net/config">
+  <project name="Webform" source="${basedir}/../repos/webform" workdir="${basedir}/build/webform/xml">
+    <collector backend="parser" >
+        <include mask="*.php"/>
+        <include mask="*.module"/>
+        <include mask="*.inc"/>
+    </collector>
+    <generator output="${basedir}/build/webform">
+      <build engine="html" output="html"/>
+    </generator>
+  </project>
+</phpdox>

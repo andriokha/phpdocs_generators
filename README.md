@@ -23,22 +23,42 @@ Pros
 * Easy to use and automate
 * Nice looking default theme and easy to subtheme
 * Can switch branches and generates all different versions in one go
+* Search functionality built-in
 
 Cons
 * Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
 * Everything should be on a namespace
+* No source code view
+* Fails on large codebases
+
+
+## PHPDOC
+
+[https://phpdox.net/](https://phpdox.net/)
+
+```
+cd phpdox
+php -d memory_limit=-1 phpdox.phar -f webform.xml
+php -d memory_limit=-1 phpdox.phar -f drupal.xml
+php -d memory_limit=-1 phpdox.phar -f gin.xml
+```
+
+Then see the `phpdox/build` folders which contain the generated documentation.
+
+Pros
+* Easy to use and automate
+* Full source code view
+
+Cons
+* Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
+* Default styling not great
+* Limited annotations support
+* Does not understand version control so we would need to iterate through branches, etc. via a script
 * Fails on large codebases
 
 
 ## PHPDOC
 
 [https://www.phpdoc.org/](https://www.phpdoc.org/)
-
-TODO
-
-
-## PHPDOX
-
-[https://phpdox.net/](https://phpdox.net/)
 
 TODO
