@@ -32,8 +32,8 @@ $doctum = new Doctum($iterator, [
     'versions' => $versions,
     'build_dir' => __DIR__ . '/build/webform/%version%',
     'cache_dir' => __DIR__ . '/cache/webform/%version%',
-    'source_dir' => dirname($dir) . '/',
-    // 'remote_repository' => new GitLabRemoteRepository('project/webform', dirname($dir), 'https://git.drupalcode.org/'),
+    // 'source_dir' => dirname($dir),
+    'remote_repository' => new GitLabRemoteRepository('project/webform', $dir, 'https://git.drupalcode.org/'),
     // 'include_parent_data' => false,
     // 'default_opened_level' => 1,
     // Necessary to enable the opensearch.xml file generation

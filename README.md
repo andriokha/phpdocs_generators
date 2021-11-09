@@ -34,7 +34,6 @@ Then see the `doctum/build` folders which contain the generated documentation.
 **Cons**
 * Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
 * Everything should be on a namespace
-* No source code view
 * Fails on large codebases
 
 
