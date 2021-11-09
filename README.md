@@ -19,13 +19,13 @@ php -d memory_limit=-1 doctum.phar update gin.php
 
 Then see the `doctum/build` folders which contain the generated documentation.
 
-*Pros*
+**Pros**
 * Easy to use and automate
 * Nice looking default theme and easy to subtheme
 * Can switch branches and generates all different versions in one go
 * Search functionality built-in
 
-*Cons*
+**Cons**
 * Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
 * Everything should be on a namespace
 * No source code view
@@ -45,11 +45,11 @@ php -d memory_limit=-1 phpdox.phar -f gin.xml
 
 Then see the `phpdox/build` folders which contain the generated documentation.
 
-*Pros*
+**Pros**
 * Easy to use and automate
 * Full source code view
 
-*Cons*
+**Cons**
 * Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
 * Default styling not great
 * Limited annotations support
