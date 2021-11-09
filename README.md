@@ -7,9 +7,9 @@ Evaluate different tools to create documentation based on code.
 Initial set up: `./bring-repos.sh`
 
 Then:
-* [#doctum](Doctum)
-* [#phpdox](Phpdox)
-* [#phpdoc](Phpdoc)
+* [Doctum](#doctum)
+* [Phpdox](#phpdox)
+* [Phpdoc](#phpdoc)
 
 
 ## Doctum
