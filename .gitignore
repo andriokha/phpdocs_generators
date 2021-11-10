@@ -4,3 +4,6 @@ repos/gin
 doctum/build
 doctum/cache
 phpdox/build
+phpdoc/cache
+phpdoc/build
+phpdoc/.phpdoc

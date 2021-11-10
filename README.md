@@ -69,15 +69,23 @@ If you need to generate documentation for a specific branch you need to navigate
 
 ```
 cd phpdoc
-
+php -d memory_limit=-1 phpDocumentor.phar -c webform.xml --sourcecode
+php -d memory_limit=-1 phpDocumentor.phar -c drupal.xml --sourcecode
+php -d memory_limit=-1 phpDocumentor.phar -c gin.xml --sourcecode
 ```
 
 Then see the `phpdoc/build` folders which contain the generated documentation.
+If you want the code preview to work you'd need to open the project with apache, nginx or php built in server:
+`php -S localhost:8888`
 
 **Pros**
-*
-*
+* Easy to use and automate
+* Nice looking and easy to theme
+* Built in search
+* Easy to automate
+* Plays well with programmatic code
 
 **Cons**
-*
-*
+* Default navigation could be improved
+* Large files in size
+* No branch support
