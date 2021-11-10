@@ -92,5 +92,5 @@ If you want the code preview to work you'd need to open the project with apache,
 **Cons**
 * Default navigation could be improved
 * Large files in size
-* It hangs sometimes with large codebases
+* It hangs with large codebases
 * No branch support
