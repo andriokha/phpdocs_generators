@@ -37,7 +37,7 @@ Then see the `doctum/build` folders which contain the generated documentation.
 **Cons**
 * Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
 * Everything should be on a namespace
-* Fails on large codebases
+* Fails on large codebases, sometimes.
 
 
 ## PHPDOX
@@ -92,4 +92,5 @@ If you want the code preview to work you'd need to open the project with apache,
 **Cons**
 * Default navigation could be improved
 * Large files in size
+* It hangs sometimes with large codebases
 * No branch support

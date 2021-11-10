@@ -14,7 +14,7 @@ $iterator = Finder::create()
     ->files()
     ->name('*.theme')
     ->name('*.php')
-    ->name('*.install')
+    //->name('*.install')
     ->name('*.module')
     ->name('*.inc')
     ->in($dir);
@@ -32,7 +32,7 @@ $doctum = new Doctum($dir, [
     'build_dir' => __DIR__ . '/build/gin/%version%',
     'cache_dir' => __DIR__ . '/cache/gin/%version%',
     // 'source_dir' => dirname($dir) . '/',
-    // 'remote_repository' => new GitLabRemoteRepository('project/gin', dirname($dir), 'https://git.drupalcode.org/'),
+    'remote_repository' => new GitLabRemoteRepository('project/gin', $dir, 'https://git.drupalcode.org/'),
     // 'include_parent_data' => false,
     // 'default_opened_level' => 1,
     // Necessary to enable the opensearch.xml file generation
