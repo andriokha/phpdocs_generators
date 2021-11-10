@@ -4,7 +4,7 @@ Evaluate different tools to create documentation based on code.
 
 ## Set up
 
-Initial set up: `./bring-repos.sh`
+Initial set up: `./init.sh`
 
 Then:
 * [Doctum](#doctum)
