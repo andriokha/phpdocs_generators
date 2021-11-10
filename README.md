@@ -28,6 +28,8 @@ php -d memory_limit=-1 doctum.phar update gin.php
 
 Then see the `doctum/build` folders which contain the generated documentation.
 
+![Doctrum output](/images/doctrum.png)
+
 **Pros**
 * Easy to use and automate
 * Nice looking default theme and easy to subtheme
@@ -54,6 +56,8 @@ php -d memory_limit=-1 phpdox.phar -f gin.xml
 Then see the `phpdox/build` folders which contain the generated documentation.
 If you need to generate documentation for a specific branch you need to navigate to the folder and checkout the branch.
 
+![Phpdox output](/images/phpdox.png)
+
 **Pros**
 * Easy to use and automate
 * Full source code view
@@ -78,8 +82,10 @@ php -d memory_limit=-1 phpDocumentor.phar -c gin.xml --sourcecode
 ```
 
 Then see the `phpdoc/build` folders which contain the generated documentation.
-If you want the code preview to work you'd need to open the project with apache, nginx or php built in server:
-`php -S localhost:8888`
+If you want the code preview to work you'd need to open the project with apache, nginx or php built in server: `php -S localhost:8888`.
+If you need to generate documentation for a specific branch you need to navigate to the folder and checkout the branch.
+
+![Phpdoc output](/images/phpdoc.png)
 
 **Pros**
 * Easy to use and automate
