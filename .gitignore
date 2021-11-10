@@ -7,3 +7,4 @@ phpdox/build
 phpdoc/cache
 phpdoc/build
 phpdoc/.phpdoc
+*/*.phar
