@@ -4,9 +4,12 @@ Evaluate different tools to create documentation based on code.
 
 ## Set up
 
-Initial set up: `./init.sh`
+Use the following scripts to do:
+* Initial set up: `./init.sh`
+* Generate documentation: `./init.sh`
+* Open documentation: `./init.sh`
 
-Then:
+Find more details in each section:
 * [Doctum](#doctum)
 * [Phpdox](#phpdox)
 * [Phpdoc](#phpdoc)
