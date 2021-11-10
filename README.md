@@ -82,6 +82,7 @@ If you want the code preview to work you'd need to open the project with apache,
 * Easy to use and automate
 * Nice looking and easy to theme
 * Built in search
+* Great tag support
 * Easy to automate
 * Plays well with programmatic code
 
