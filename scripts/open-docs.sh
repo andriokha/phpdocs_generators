@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# open doctum/build/drupal/9.3.x/index.html
+open doctum/build/drupal/9.3.x/index.html
 open phpdoc/build/drupal/index.html
 # open phpdox/build/drupal/html/index.xhtml
 

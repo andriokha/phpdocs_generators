@@ -29,7 +29,7 @@ php -d memory_limit=-1 doctum.phar update gin.php
 
 Then see the `doctum/build` folders which contain the generated documentation.
 
-![Doctrum output](/images/doctrum.png)
+![Doctum output](/images/doctum.png)
 
 **Pros**
 * Easy to use and automate

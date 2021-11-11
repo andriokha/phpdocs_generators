@@ -14,7 +14,7 @@
             <source dsn="../repos/drupal-branches/7.x">
                 <path>.</path>
             </source>
-            <output>7.x</output>
+            <folder>7.x</folder>
             <ignore hidden="true" symlinks="true">
                 <path>tests/**/*</path>
             </ignore>
@@ -33,7 +33,7 @@
             <source dsn="../repos/drupal-branches/9.3.x">
                 <path>.</path>
             </source>
-            <output>9.3.x</output>
+            <folder>9.3.x</folder>
             <ignore hidden="true" symlinks="true">
                 <path>tests/**/*</path>
             </ignore>
