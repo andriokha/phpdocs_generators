@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Bring the different generators.
-rm doctum/*.phar phpdox/*.phar phpdoc/*.phar
+rm doctum/doctum.phar phpdox/*.phar phpdoc/*.phar
 wget -P doctum https://doctum.long-term.support/releases/latest/doctum.phar
 wget -P phpdox http://phpdox.de/releases/phpdox.phar
 wget -P phpdoc https://phpdoc.org/phpDocumentor.phar

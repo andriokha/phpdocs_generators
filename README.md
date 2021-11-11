@@ -95,6 +95,7 @@ If you need to generate documentation for a specific branch you need to navigate
 * Great tag support
 * Easy to automate
 * Plays well with programmatic code
+* Allows for additional guides to go alongside the generated code
 
 **Cons**
 * Default navigation could be improved

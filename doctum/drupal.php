@@ -21,10 +21,9 @@ $iterator = Finder::create()
     ->in($dir);
 
 $versions = GitVersionCollection::create($dir)
-    ->add('7.x', '7.x branch')
-    //->add('8.9.x', '8.9.x branch')
-    ->add('9.3.x', '9.3.x branch');
-    //->add('10.0.x', '10.0.x branch');
+    ->add('9.3.x', '9.3.x branch')
+    ->add('8.9.x', '8.9.x branch')
+    ->add('7.x', '7.x branch');
 
 $doctum = new Doctum($iterator, [
     'title' => 'Drupal API',
