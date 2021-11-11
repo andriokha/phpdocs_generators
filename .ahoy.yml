@@ -1,0 +1,19 @@
+---
+ahoyapi: v2
+
+commands:
+  clean:
+    usage: Clean project.
+    cmd: ./scripts/clean.sh
+
+  init:
+    usage: Bring assets.
+    cmd: ./scripts/init.sh
+
+  generate:
+    usage: Generate docs.
+    cmd: ./scripts/run-docs.sh
+
+  open:
+    usage: Open generated docs.
+    cmd: ./scripts/open-docs.sh

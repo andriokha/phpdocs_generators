@@ -4,10 +4,11 @@ Evaluate different tools to create documentation based on code.
 
 ## Set up
 
-Use the following scripts to do:
-* Initial set up: `./init.sh`
-* Generate documentation: `./init.sh`
-* Open documentation: `./init.sh`
+Use the following [ahoy](https://github.com/ahoy-cli/ahoy) commands to do:
+* Initial set up: `ahoy init`
+* Generate documentation: `ahoy generate`
+* Open documentation: `ahoy open`
+* Clean up: `ahoy clean`
 
 Find more details in each section:
 * [Doctum](#doctum)
