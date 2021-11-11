@@ -17,6 +17,7 @@ cd ..
 cd phpdoc
 rm -rf build cache
 php -d memory_limit=-1 phpDocumentor.phar -c webform.xml --sourcecode
-php -d memory_limit=-1 phpDocumentor.phar -c drupal.xml --sourcecode
+php -d memory_limit=-1 phpDocumentor.phar -c drupal7.xml --sourcecode
+php -d memory_limit=-1 phpDocumentor.phar -c drupal9.xml --sourcecode
 php -d memory_limit=-1 phpDocumentor.phar -c gin.xml --sourcecode
 cd ..

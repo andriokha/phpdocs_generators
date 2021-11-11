@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor
+        configVersion="3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://www.phpdoc.org"
+        xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
+>
+    <paths>
+        <output>build/drupal7</output>
+        <cache>cache/drupal7</cache>
+    </paths>
+    <version number="7.x">
+        <api>
+            <source dsn="../repos/drupal-branches/7.x">
+                <path>.</path>
+            </source>
+            <ignore hidden="true" symlinks="true">
+                <path>tests/**/*</path>
+            </ignore>
+            <extensions>
+                <extension>php</extension>
+                <extension>module</extension>
+                <extension>inc</extension>
+                <extension>install</extension>
+                <extension>theme</extension>
+            </extensions>
+            <include-source>true</include-source>
+        </api>
+    </version>
+</phpdocumentor>

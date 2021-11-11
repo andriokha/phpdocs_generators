@@ -6,34 +6,14 @@
         xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
 >
     <paths>
-        <output>build/drupal</output>
-        <cache>cache/drupal</cache>
+        <output>build/drupal9</output>
+        <cache>cache/drupal9</cache>
     </paths>
-    <version number="7.x">
-        <api>
-            <source dsn="../repos/drupal-branches/7.x">
-                <path>.</path>
-            </source>
-            <folder>7.x</folder>
-            <ignore hidden="true" symlinks="true">
-                <path>tests/**/*</path>
-            </ignore>
-            <extensions>
-                <extension>php</extension>
-                <extension>module</extension>
-                <extension>inc</extension>
-                <extension>install</extension>
-                <extension>theme</extension>
-            </extensions>
-            <include-source>true</include-source>
-        </api>
-    </version>
     <version number="9.3.x">
         <api>
             <source dsn="../repos/drupal-branches/9.3.x">
                 <path>.</path>
             </source>
-            <folder>9.3.x</folder>
             <ignore hidden="true" symlinks="true">
                 <path>tests/**/*</path>
             </ignore>
