@@ -11,9 +11,29 @@
     </paths>
     <version number="7.x">
         <api>
-            <source dsn="../repos/drupal">
+            <source dsn="../repos/drupal-branches/7.x">
                 <path>.</path>
             </source>
+            <output>7.x</output>
+            <ignore hidden="true" symlinks="true">
+                <path>tests/**/*</path>
+            </ignore>
+            <extensions>
+                <extension>php</extension>
+                <extension>module</extension>
+                <extension>inc</extension>
+                <extension>install</extension>
+                <extension>theme</extension>
+            </extensions>
+            <include-source>true</include-source>
+        </api>
+    </version>
+    <version number="9.3.x">
+        <api>
+            <source dsn="../repos/drupal-branches/9.3.x">
+                <path>.</path>
+            </source>
+            <output>9.3.x</output>
             <ignore hidden="true" symlinks="true">
                 <path>tests/**/*</path>
             </ignore>
