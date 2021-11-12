@@ -104,6 +104,5 @@ If you need to generate documentation for a specific branch you need to navigate
 * It takes really long for large codebases (ie: D9 takes ~30 min on powerful machine)
 * No branch support
 * No paginated output
-* Other issues:
-** It renders comments as they are, so sometimes it breaks the html of the page. Won't fix: https://github.com/phpDocumentor/phpDocumentor/issues/639.
-** No support for some tags: @code @see (temperamental)
+* It renders comments as they are, so sometimes it breaks the html of the page. Won't fix: https://github.com/phpDocumentor/phpDocumentor/issues/639.
+* No support for some tags: @code @see (temperamental)
