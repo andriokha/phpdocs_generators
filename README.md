@@ -32,16 +32,16 @@ Then see the `doctum/build` folders which contain the generated documentation.
 ![Doctum output](/images/doctum.png)
 
 **Pros**
-* Easy to use and automate
-* Nice looking default theme and easy to subtheme
+* Very easy to use and automate
+* Nice looking default theme
+* Very easy to subtheme
 * Can switch branches and generates all different versions in one go
 * Search functionality built-in
+* Links to actual repo when trying to view code
 
 **Cons**
-* Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
-** Everything should be on a namespace
-
-* Fails on large codebases, sometimes.
+* Not playing well with procedural code (not object oriented). Issue: https://github.com/code-lts/doctum/issues/38
+* Fails on large codebases, sometimes. Fix for this: https://github.com/code-lts/doctum/pull/36
 * No paginated output
 
 
@@ -63,13 +63,12 @@ If you need to generate documentation for a specific branch you need to navigate
 
 **Pros**
 * Easy to use and automate
-* Full source code view
 
 **Cons**
-* Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
+* Not playing well with procedural code (not object oriented).
 * Default styling not great
 * Limited annotations support
-* Does not understand version control so we would need to iterate through branches, etc. via a script
+* No branch support
 * Fails on large codebases
 
 
@@ -80,7 +79,8 @@ If you need to generate documentation for a specific branch you need to navigate
 ```
 cd phpdoc
 php -d memory_limit=-1 phpDocumentor.phar -c webform.xml --sourcecode
-php -d memory_limit=-1 phpDocumentor.phar -c drupal.xml --sourcecode
+php -d memory_limit=-1 phpDocumentor.phar -c drupal7.xml --sourcecode
+php -d memory_limit=-1 phpDocumentor.phar -c drupal9.xml --sourcecode
 php -d memory_limit=-1 phpDocumentor.phar -c gin.xml --sourcecode
 ```
 
@@ -92,17 +92,16 @@ If you need to generate documentation for a specific branch you need to navigate
 
 **Pros**
 * Easy to use and automate
-* Nice looking and easy to theme
+* Nice looking
+* Can be themed
 * Built in search
-* Great tag support
-* Easy to automate
 * Plays well with programmatic code
 * Allows for additional guides to go alongside the generated code
 
 **Cons**
 * Default navigation could be improved
 * Large files in size
-* It takes really long for large codebases (ie: D9)
+* It takes really long for large codebases (ie: D9 takes ~30 min on powerful machine)
 * No branch support
 * No paginated output
 * Other issues:
