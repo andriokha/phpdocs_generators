@@ -5,11 +5,12 @@
         xmlns="https://www.phpdoc.org"
         xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
 >
+    <title>Gin 8.3.x</title>
     <paths>
         <output>build/gin</output>
         <cache>cache/gin</cache>
     </paths>
-    <version number="6.x">
+    <version number="8.3.x">
         <api>
             <source dsn="../repos/gin">
                 <path>.</path>

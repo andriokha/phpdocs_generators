@@ -5,6 +5,7 @@
         xmlns="https://www.phpdoc.org"
         xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
 >
+    <title>Drupal 9.3.x</title>
     <paths>
         <output>build/drupal9</output>
         <cache>cache/drupal9</cache>
@@ -27,4 +28,5 @@
             <include-source>true</include-source>
         </api>
     </version>
+    <template name="default"/>
 </phpdocumentor>

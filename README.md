@@ -13,7 +13,7 @@ Use the following [ahoy](https://github.com/ahoy-cli/ahoy) commands to do:
 Find more details in each section:
 * [Doctum](#doctum)
 * [Phpdox](#phpdox)
-* [Phpdoc](#phpdoc)
+* [PhpDocumentor](#phpdoc)
 
 
 ## Doctum
@@ -39,8 +39,10 @@ Then see the `doctum/build` folders which contain the generated documentation.
 
 **Cons**
 * Not playing well with programmatic (not object oriented) code. ie: functions on *.module files not documented or not linked
-* Everything should be on a namespace
+** Everything should be on a namespace
+
 * Fails on large codebases, sometimes.
+* No paginated output
 
 
 ## PHPDOX
@@ -71,7 +73,7 @@ If you need to generate documentation for a specific branch you need to navigate
 * Fails on large codebases
 
 
-## PHPDOC
+## PHPDOCUMENTOR
 
 [https://www.phpdoc.org/](https://www.phpdoc.org/)
 
@@ -100,5 +102,9 @@ If you need to generate documentation for a specific branch you need to navigate
 **Cons**
 * Default navigation could be improved
 * Large files in size
-* It hangs with large codebases
+* It takes really long for large codebases (ie: D9)
 * No branch support
+* No paginated output
+* Other issues:
+** It renders comments as they are, so sometimes it breaks the html of the page. Won't fix: https://github.com/phpDocumentor/phpDocumentor/issues/639.
+** No support for some tags: @code @see (temperamental)
