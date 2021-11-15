@@ -41,7 +41,6 @@ Then see the `doctum/build` folders which contain the generated documentation.
 
 **Cons**
 * Not playing well with procedural code (not object oriented). Issue: https://github.com/code-lts/doctum/issues/38
-* Fails on large codebases, sometimes. Fix for this: https://github.com/code-lts/doctum/pull/36
 * No paginated output
 
 
