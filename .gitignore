@@ -9,4 +9,3 @@ phpdoc/cache
 phpdoc/build
 phpdoc/.phpdoc
 */*.phar
-!doctum/doctum-custom.phar
