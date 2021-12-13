@@ -4,9 +4,9 @@
 rm doctum/doctum.phar phpdox/*.phar phpdoc/*.phar
 # wget -P doctum https://doctum.long-term.support/releases/latest/doctum.phar
 wget -P doctum https://doctum.long-term.support/releases/5-dev/doctum.phar
-wget -P phpdox http://phpdox.de/releases/phpdox.phar
+# wget -P phpdox http://phpdox.de/releases/phpdox.phar
 # wget -P phpdoc https://phpdoc.org/phpDocumentor.phar  # Sometimes this fails
-wget -P phpdoc https://github.com/phpDocumentor/phpDocumentor/releases/download/v3.1.2/phpDocumentor.phar
+# wget -P phpdoc https://github.com/phpDocumentor/phpDocumentor/releases/download/v3.1.2/phpDocumentor.phar
 
 # Bring the different repos.
 rm -rf repos/drupal repos/gin repos/webform
