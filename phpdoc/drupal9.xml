@@ -24,6 +24,7 @@
                 <extension>inc</extension>
                 <extension>install</extension>
                 <extension>theme</extension>
+                <extension>profile</extension>
             </extensions>
             <include-source>true</include-source>
         </api>
